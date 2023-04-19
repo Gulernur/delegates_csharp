@@ -27,5 +27,11 @@ namespace CarEngine
             EngineStopped.Invoke(); 
         }
 
+        public void SetEngineSpeed(int newSpeed)
+        {
+            currentEngineSpeed = newSpeed; 
+            EngineSpeedChanged.Invoke(); 
+        }
+
     }
 }

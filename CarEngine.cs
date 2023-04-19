@@ -15,5 +15,11 @@ namespace CarEngine
         private bool isEngineRunning; 
         private int currentEngineSpeed; 
 
+        public void StartEngine()
+        {
+            isEngineRunning = true; 
+            EngineStarted.Invoke(); 
+        }
+
     }
 }

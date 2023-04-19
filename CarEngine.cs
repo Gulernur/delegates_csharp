@@ -1,10 +1,11 @@
 using System.Diagnostics.Tracing;
+using System; 
 
-namespace CarEngine
+namespace Car
 {
     public delegate void EngineStartHandler();
     public delegate void EngineStopHandler();
-    public delegate void EngineSpeedChangeHandler();
+    public delegate void EngineSpeedChangeHandler(int speed);
 
     public class CarEngine 
     { 
@@ -30,7 +31,7 @@ namespace CarEngine
         public void SetEngineSpeed(int newSpeed)
         {
             currentEngineSpeed = newSpeed; 
-            EngineSpeedChanged.Invoke(); 
+            EngineSpeedChanged.Invoke(currentEngineSpeed); 
         }
 
     }

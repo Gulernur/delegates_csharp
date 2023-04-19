@@ -1,0 +1,15 @@
+/Users/gulernurdonmez/visual studio/C#/delegates/bin/Debug/net6.0/delegates
+/Users/gulernurdonmez/visual studio/C#/delegates/bin/Debug/net6.0/delegates.deps.json
+/Users/gulernurdonmez/visual studio/C#/delegates/bin/Debug/net6.0/delegates.runtimeconfig.json
+/Users/gulernurdonmez/visual studio/C#/delegates/bin/Debug/net6.0/delegates.dll
+/Users/gulernurdonmez/visual studio/C#/delegates/bin/Debug/net6.0/delegates.pdb
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.csproj.AssemblyReference.cache
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.AssemblyInfoInputs.cache
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.AssemblyInfo.cs
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.csproj.CoreCompileInputs.cache
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.dll
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/refint/delegates.dll
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.pdb
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/delegates.genruntimeconfig.cache
+/Users/gulernurdonmez/visual studio/C#/delegates/obj/Debug/net6.0/ref/delegates.dll

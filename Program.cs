@@ -1,4 +1,4 @@
-﻿namespace Delæégates
+﻿namespace Delegates
 {
     public class Program
     {

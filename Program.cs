@@ -13,11 +13,9 @@ namespace Delegates
             carEngine.EngineSpeedChanged += OnSpeedChangeOne;
             carEngine.EngineSpeedChanged += OnSpeedChangeTwo;
 
-
-            //program test
             carEngine.StartEngine();
             carEngine.SetEngineSpeed(50);
-            carEngine.SetEngineSpeed(80);
+            carEngine.SetEngineSpeed(90);
             carEngine.StopEngine();
 
             Console.ReadLine();

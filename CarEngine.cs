@@ -9,9 +9,9 @@ namespace Car
 
     public class CarEngine 
     { 
-        public event EngineStartHandler EngineStarted; 
-        public event EngineStopHandler EngineStopped; 
-        public event EngineSpeedChangeHandler EngineSpeedChanged; 
+        public event EngineStartHandler? EngineStarted; 
+        public event EngineStopHandler? EngineStopped; 
+        public event EngineSpeedChangeHandler? EngineSpeedChanged; 
 
         private bool isEngineRunning; 
         private int currentEngineSpeed; 
@@ -19,19 +19,19 @@ namespace Car
         public void StartEngine()
         {
             isEngineRunning = true; 
-            EngineStarted.Invoke(); 
+            EngineStarted?.Invoke(); 
         }
 
         public void StopEngine()
         {
             isEngineRunning = false; 
-            EngineStopped.Invoke(); 
+            EngineStopped?.Invoke(); 
         }
 
         public void SetEngineSpeed(int newSpeed)
         {
             currentEngineSpeed = newSpeed; 
-            EngineSpeedChanged.Invoke(currentEngineSpeed); 
+            EngineSpeedChanged?.Invoke(currentEngineSpeed); 
         }
 
     }

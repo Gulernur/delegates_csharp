@@ -12,5 +12,8 @@ namespace CarEngine
         public event EngineStopHandler EngineStopped; 
         public event EngineSpeedChangeHandler EngineSpeedChanged; 
 
+        private bool isEngineRunning; 
+        private int currentEngineSpeed; 
+
     }
 }

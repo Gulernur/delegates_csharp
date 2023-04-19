@@ -21,5 +21,11 @@ namespace CarEngine
             EngineStarted.Invoke(); 
         }
 
+        public void StopEngine()
+        {
+            isEngineRunning = false; 
+            EngineStopped.Invoke(); 
+        }
+
     }
 }
